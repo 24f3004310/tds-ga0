@@ -1,0 +1,11 @@
+name: Submit Assignment
+
+on:
+  workflow_dispatch: # This allows you to run it manually with a button
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 24f3004310@ds.study.iitm.ac.in
+        run: echo "Action triggered for assignment submission"
